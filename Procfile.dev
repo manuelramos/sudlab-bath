@@ -1,0 +1,2 @@
+runserver: uv run python manage.py runserver
+tailwind: TAILWINDCSS_VERSION=v3.4.17 uv run tailwindcss -i ./static/src/input.css -o ./static/css/output.css --watch
